@@ -28,3 +28,6 @@ Nous nous sommes servis des scripts Perl fourni par le professeur pour la tokeni
 `lemmatisation_fr.ipynb`: nous avons utilisé `spacy` pour substituer `nltk` car le dernier ne fonctionne pas bien pour la langue française en POS.
 
 `lemmatistaion_fr(1).ipynb`: c'est une version en utilisant `nltk` et `FrenchLefffLemmatizer` mais on trouve que les mots ne sont pas bien lemmatisés.
+
+## Potentielle détokenisation de données
+`detokenize.sh`: ce script shell sert à détokeniser un corpus pour donner une forme plus naturelle de traduction. Pour exécuter: `./detokenize.sh`
