@@ -23,6 +23,6 @@
 
 #### Lemmatisation des données françaises :
 `lemmatisation_en.ipynb`: nous avons utilisé `nltk` et `WordNetLemmatizer` pour lemmatiser les mots dans le corpus en anglais. Le fichier à traiter est fourni en tant qu'un argument, mais il est nécessaire de convertir le code au format `.py`. On peut entrer la commande suivante pour l'exécution du code : 
-> Python3 lemmatisation_en.py Europarl_test_500.tok.true.clean.en.
+>> python3 lemmatisation_en.py Europarl_test_500.tok.true.clean.en.
 
 `lemmatisation_fr.ipynb`: nous avons utilisé `spacy` pour substituer `nltk` car le dernier ne fonctionne pas bien pour la langue française en POS.
