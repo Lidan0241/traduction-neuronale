@@ -16,8 +16,8 @@
 
 
 
-
-
+## Entraînement de modèle
+`OpenNMT_Train`: ce script construit des vocabulaires pour la langue source et cible, puis entraîne le modèle avec le chemin des données selon la configuration du fichier `toy_en_fr.yaml`, ensuite il traduit en fonction du modèle entraîné
 
 ## Lemmatisation des données
 
