@@ -13,7 +13,7 @@
 
 ## Nettoyage des données
 
-
+Nous nous sommes servis des scripts Perl fourni par le professeur pour la tokenisation, ainsi que l'entraînement de true-case des corpus.
 
 
 ## Entraînement de modèle
