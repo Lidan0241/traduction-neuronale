@@ -26,3 +26,4 @@
 > python3 lemmatisation_en.py Europarl_test_500.tok.true.clean.en.
 #### Lemmatisation des données françaises :
 `lemmatisation_fr.ipynb`: nous avons utilisé `spacy` pour substituer `nltk` car le dernier ne fonctionne pas bien pour la langue française en POS.
+`lemmatistaion_fr(1).ipynb`: c'est une version en utilisant `nltk` et `FrenchLefffLemmatizer` mais on trouve que les mots ne sont pas bien lemmatisés.
