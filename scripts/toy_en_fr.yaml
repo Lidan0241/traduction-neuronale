@@ -1,0 +1,34 @@
+# toy_en_de.yaml
+
+## Where the samples will be written
+save_data: ./Europarl
+
+## Where the vocab(s) will be written
+src_vocab: ./combined_train_lemme_en.vocab.src
+tgt_vocab: ./combined_train_lemme_fr.vocab.tgt
+# Prevent overwriting existing files in the folder
+overwrite: False
+
+# Corpus opts:
+data:
+    corpus_1:
+        path_src: ./combined_train_lemme.en
+        path_tgt: ./combined_train_lemme.fr
+    valid:
+        path_src: ./Europarl_dev_3750_lemme.en
+        path_tgt: ./Europarl_dev_3750_lemme.fr
+
+
+# Vocabulary files that were just created
+src_vocab: ./combined_train_lemme_en.vocab.src
+tgt_vocab: ./combined_train_lemme_fr.vocab.tgt
+
+# Train on a single GPU
+world_size: 1
+gpu_ranks: [0]
+
+# Where to save the checkpoints
+save_model: ./Europarl_lemme_model
+save_checkpoint_steps: 500
+train_steps: 1000
+valid_steps: 500
