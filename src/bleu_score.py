@@ -1,6 +1,6 @@
 from nltk.translate.bleu_score import sentence_bleu, corpus_bleu, SmoothingFunction
 
-with open('../src/predictions/combined_lemme_pred.fr', 'r', encoding='utf-8') as f:
+with open('./predictions/combined_lemme_pred.fr', 'r', encoding='utf-8') as f:
     predictions = f.readlines()
 
 with open('../data/clean/combined_test_lemme.fr', 'r', encoding='utf-8') as f:
