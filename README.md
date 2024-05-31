@@ -25,5 +25,5 @@
 `lemmatisation_en.ipynb`: nous avons utilisé `nltk` et `WordNetLemmatizer` pour lemmatiser les mots dans le corpus en anglais. Le fichier à traiter est fourni en tant qu'un argument, mais il est nécessaire de convertir le code au format `.py`. On peut entrer la commande suivante pour l'exécution du code : 
 > python3 lemmatisation_en.py Europarl_test_500.tok.true.clean.en.
 #### Lemmatisation des données françaises :
-`lemmatisation_fr.ipynb`: nous avons utilisé `spacy` pour substituer `nltk` car le dernier ne fonctionne pas bien pour la langue française en POS.
-`lemmatistaion_fr(1).ipynb`: c'est une version en utilisant `nltk` et `FrenchLefffLemmatizer` mais on trouve que les mots ne sont pas bien lemmatisés.
+`lemmatisation_fr.ipynb`: nous avons utilisé `spacy` pour substituer `nltk` car le dernier ne fonctionne pas bien pour la langue française en POS. 
+ `lemmatistaion_fr(1).ipynb`: c'est une version en utilisant `nltk` et `FrenchLefffLemmatizer` mais on trouve que les mots ne sont pas bien lemmatisés.
